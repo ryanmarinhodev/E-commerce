@@ -23,11 +23,10 @@ function SearchBar() {
 
   return (
     <form className="search-bar" onSubmit={handleSearch}>
-      {name}
       <input
         type="search"
         value={searchValue}
-        placeholder="Buscar produtos"
+        placeholder="Buscar produtos by Ryan"
         className="search__input"
         onChange={ ({ target }) => setSearchValue(target.value) }
         required
